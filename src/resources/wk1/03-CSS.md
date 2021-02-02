@@ -182,7 +182,7 @@ We'll cover three ways one could incorporate CSS into their project:
 <body>...</body>
 </html>
 ```
-Rembmer that our browser is reading code within the `index.html` file from top to bottom. None of our other files will have an affect on our site unless we explicity tell the browser to pull in those additional files.<br/>
+Remember that our browser is reading code within the `index.html` file from top to bottom. None of our other files will have an affect on our site unless we explicity tell the browser to pull in those additional files.<br/>
 
 We utilize the `<link>` tag in order to have the browser read the specificed file, the value of the link tag's `href` attribute. Here we see that we are trying to load into our project a file called `style.css` that's located within a sibling folder to our `index.html`, namely `assets`.<br />
 
